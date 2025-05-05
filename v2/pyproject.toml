@@ -1,0 +1,19 @@
+[project]
+dependencies = [
+    "xarray~=2024.3.0",
+    "zarr>=2,<3",
+    "py-hamt @ git+https://github.com/dClimate/py-hamt.git@9fe5ab5ec3f29e4af8bc409a2369fbcc9e3786c5",
+    "ipykernel>=6.29.5",
+]
+name = "zarr-comparison-v2"
+version = "0.1.0"
+
+authors = [
+    {name = "0xSwego - dClimate", email = "0xSwego@gmail.com"},
+]
+requires-python = "==3.12.*"
+readme = "README.md"
+license = {text = "MIT"}
+
+[tool.pdm]
+distribution = false
