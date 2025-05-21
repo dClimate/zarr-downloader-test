@@ -1,17 +1,9 @@
 [project]
-dependencies = [
-    "ipykernel>=6.29.5",
-    "requests>=2.31",
-]
+dependencies = ["ipykernel>=6.29.5", "requests>=2.31"]
 name = "zarr-comparison-manual"
 version = "0.1.0"
 
-authors = [
-    {name = "0xSwego - dClimate", email = "0xSwego@gmail.com"},
-]
+authors = [{ name = "0xSwego - dClimate", email = "0xSwego@gmail.com" }]
 requires-python = "==3.12.*"
 readme = "README.md"
-license = {text = "MIT"}
-
-[tool.pdm]
-distribution = false
+license = { text = "MIT" }

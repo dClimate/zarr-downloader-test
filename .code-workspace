@@ -1,0 +1,16 @@
+{
+    "folders": [
+        {
+            "path": "manual"
+        },
+        {
+            "path": "v2"
+        },
+        {
+            "path": "v3"
+        }
+    ],
+    "settings": {
+        "python.terminal.activateEnvironment": true
+    }
+}
