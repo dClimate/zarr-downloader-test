@@ -2,15 +2,13 @@
 dependencies = [
     "xarray~=2025.3.0",
     "zarr>=3",
-    "py-hamt @ git+https://github.com/dClimate/py-hamt.git@48b6b6d40a4ffc9a729b18d5cbc046e8f747ae7c",
+    "py-hamt @ git+https://github.com/dClimate/py-hamt.git@e2cf99cde8a599e224b7be3aa70401dc5b215598",
     "ipykernel>=6.29.5",
 ]
 name = "zarr-comparison-v3"
 version = "0.1.0"
 
-authors = [
-    {name = "0xSwego - dClimate", email = "0xSwego@gmail.com"},
-]
+authors = [{name = "0xSwego - dClimate", email = "0xSwego@gmail.com"}]
 requires-python = "==3.12.*"
 readme = "README.md"
 license = {text = "MIT"}

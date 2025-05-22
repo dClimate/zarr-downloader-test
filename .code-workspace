@@ -4,10 +4,13 @@
             "path": "manual"
         },
         {
-            "path": "v2"
+            "path": "zarr_v2"
         },
         {
-            "path": "v3"
+            "path": "zarr_v3_hamt_v2"
+        },
+        {
+            "path": "zarr_v3-hamt_v3"
         }
     ],
     "settings": {
